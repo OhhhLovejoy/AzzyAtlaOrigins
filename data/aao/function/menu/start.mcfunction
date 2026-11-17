@@ -1,0 +1,1 @@
+# Menu will begin intialization from here. Whilst a player is in the menu, they should be immune to damage OR hostile mobs within a 20 block radius should ignore the player.

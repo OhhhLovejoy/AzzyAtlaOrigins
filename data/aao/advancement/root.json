@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:tick"
+    },
+    "use_orb": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:warped_fungus_on_a_stick",
+            "predicates": {
+              "minecraft:custom_data": "{\"aao\":\"orb\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_orb",
+      "join"
+    ]
+  ],
+  "rewards": {
+    "recipes": [],
+    "function": "aao:menu/start"
+  }
+}
