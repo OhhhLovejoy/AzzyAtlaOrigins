@@ -26,6 +26,6 @@
   ],
   "rewards": {
     "recipes": [],
-    "function": "aao:menu/start"
+    "function": "aao:tech/player_join"
   }
 }
