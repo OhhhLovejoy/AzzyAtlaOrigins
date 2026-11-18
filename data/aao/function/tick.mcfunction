@@ -1,1 +1,0 @@
-execute as @a unless score @s aao.height matches 1 run function aao:tech/size/apply
